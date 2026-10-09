@@ -104,6 +104,3 @@ Useful development areas:
 - Keep cross-origin download permissions narrow and review redirect policy.
 - `ACCEPTED`, `REJECTED`, `UNSUPPORTED`, `INCONCLUSIVE`, and `ERROR` represent different outcomes; do not interpret acceptance as a mathematical safety guarantee.
 
-## License
-
-No license has been selected in this repository yet. Choose and add an appropriate license before publishing if you want to grant others permission to use, modify, and redistribute the code.
