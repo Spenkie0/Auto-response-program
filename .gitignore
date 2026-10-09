@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime output; never commit captured pages, screenshots, or reports.
+data/raw_pages/
+data/clean_window_pages/
+data/screenshots/
+data/downloads/
+data/errors/
+data/debug/
+data/dependency_report.json
+data/answer/
+data/answer_not_found/
+data/review/
+data/tesseract/
+raw_pages/
+clean_window_pages/
+answer/
+answer_not_found/
+review/
+errors/
+
+# Generated on each machine by native_messaging/install_native_host.py.
+native_messaging/scrapper_ollama.json
+native_messaging/scrapper_ollama_host.bat

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Scrapper Ollama Trigger",
+  "version": "2.1.0",
+  "description": "Capture the active Firefox tab and start the local Scrapper/Ollama pipeline.",
+  "permissions": [
+    "activeTab",
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Capture active Firefox tab"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "active-firefox-scraper@example.local"
+    }
+  }
+}

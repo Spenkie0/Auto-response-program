@@ -1,0 +1,36 @@
+{
+  "python": {
+    "minimum_version": "3.13",
+    "winget_id": "Python.Python.3.13",
+    "source": "winget"
+  },
+  "firefox": {
+    "winget_id": "Mozilla.Firefox",
+    "source": "winget"
+  },
+  "docker_desktop": {
+    "winget_id": "Docker.DockerDesktop",
+    "source": "winget"
+  },
+  "tesseract": {
+    "winget_id": "UB-Mannheim.TesseractOCR",
+    "source": "winget",
+    "languages": [
+      "eng",
+      "fra"
+    ],
+    "managed_tessdata_dir": "data/tesseract"
+  },
+  "ollama": {
+    "winget_id": "Ollama.Ollama",
+    "source": "winget",
+    "official_install_ps1": "https://ollama.com/install.ps1"
+  },
+  "quarantine_image": {
+    "image": "scrapper-ollama-quarantine:2.0"
+  },
+  "python_packages": [
+    "beautifulsoup4",
+    "defusedxml>=0.7.1"
+  ]
+}

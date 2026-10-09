@@ -1,0 +1,6 @@
+{
+  "ocr_enabled": true,
+  "ocr_executable": "tesseract",
+  "ocr_language": "fra+eng",
+  "visual_analysis_enabled": true
+}

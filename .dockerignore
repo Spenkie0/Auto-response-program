@@ -1,0 +1,14 @@
+# The quarantine image must not receive the runtime project/data tree or secrets.
+*
+!quarantine/
+!quarantine/Dockerfile
+!quarantine/requirements.txt
+!quarantine/worker_entry.py
+!quarantine/app_init.py
+!quarantine/downloads_init.py
+!app/
+!app/downloads/
+!app/downloads/models.py
+!app/downloads/detector.py
+!app/downloads/extract.py
+!app/downloads/security.py

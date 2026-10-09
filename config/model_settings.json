@@ -1,0 +1,5 @@
+{
+  "window_verifier_model": "qwen3:4b",
+  "answer_model": "qwen3:8b",
+  "vision_model": ""
+}
